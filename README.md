@@ -4,7 +4,9 @@
 
 
 # Bikes for Refugees
-![Bikes for Refugees Logo](https://res.cloudinary.com/dc4u0bzgh/image/upload/v1779207575/bikes-for-refugees_logo_gmlr2x.jpg)
+<div align="center">
+  <img src="https://res.cloudinary.com/dc4u0bzgh/image/upload/v1779207575/bikes-for-refugees_logo_gmlr2x.jpg" alt="Bikes for Refugees Logo" width="400">
+</div>
 
 ## Purpose
 
