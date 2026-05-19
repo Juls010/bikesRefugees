@@ -289,11 +289,12 @@ nav {
 
 .facebook-link {
 	color: #c05326;
-}
-
-.facebook-link[aria-disabled="true"], .facebook-link[disabled] {
-	opacity: 0.6;
-	pointer-events: none;
+	display: inline-flex;
+	align-items: center;
+	gap: 0.5rem;
+	align-self: flex-end;
+	text-decoration: none;
+	padding: 0.25rem 0;
 }
 
 .sidebar {
