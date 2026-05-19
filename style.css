@@ -287,6 +287,19 @@ nav {
 	color: #c05326;
 }
 
+.facebook-icon {
+	width: 1.1rem;
+	height: 1.1rem;
+	margin-right: 0.25rem;
+	flex-shrink: 0;
+	background: none;
+	border-radius: 0;
+	padding: 0;
+	box-sizing: content-box;
+	fill: currentColor;
+	display: inline-block;
+}
+
 .facebook-link {
 	color: #c05326;
 	display: inline-flex;
@@ -295,6 +308,21 @@ nav {
 	align-self: flex-end;
 	text-decoration: none;
 	padding: 0.25rem 0;
+	position: relative;
+	padding-bottom: 0.45rem; /* espacio para la línea */
+	font-weight: 700;
+	font-size: 0.95rem;
+}
+
+.facebook-link::after {
+	content: "";
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0.08rem;
+	height: 2px;
+	background: #c05326;
+	border-radius: 1px;
 }
 
 .sidebar {
